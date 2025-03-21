@@ -1,9 +1,9 @@
 pytest==7.2.1
 joblib==1.2.0
-requests==2.28.2
+requests==2.32.2
 plotly==5.16.1
-streamlit==1.20.0
-lightgbm==4.0.0
+streamlit==1.37.0
+lightgbm==4.6.0
 Flask
 joblib
 pandas
