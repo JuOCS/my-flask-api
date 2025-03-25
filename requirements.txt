@@ -4,4 +4,3 @@ pandas
 shap
 scikit-learn
 azure-storage-blob
-streamlit
