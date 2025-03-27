@@ -17,6 +17,9 @@ from flask import Flask, jsonify, request
 from sklearn.preprocessing import StandardScaler
 from azure.storage.blob import BlobServiceClient
 
+# Créer le répertoire data s'il n'existe pas
+os.makedirs("data", exist_ok=True)
+
 # Initialiser Flask
 app = Flask(__name__)
 
